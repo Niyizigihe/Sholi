@@ -26,14 +26,6 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Delicious
-  * Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="starter-page-page">
@@ -43,10 +35,10 @@
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-end justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-phone d-flex align-items-center d-none d-lg-block"><span>+1 5589 55488 55</span></i>
-          <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mon-Sat: 11:00 AM - 23:00 PM</span></i>
+          <i class="bi bi-phone d-flex align-items-center d-none d-lg-block"><span>+250 788 899 230</span></i>
+          <i class="bi bi-clock ms-4 d-none d-lg-flex align-items-center"><span>Mon-Fri: 8:00 AM - 5:00 PM</span></i>
         </div>
-        <a href="#book-a-table" class="cta-btn">Booka a table</a>
+        <a href="admin/login.html" class="cta-btn">Login</a>
       </div>
     </div><!-- End Top Bar -->
 
@@ -54,38 +46,23 @@
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <img src="assets/img/logo.png" alt="">
           <h1 class="sitename">Welcome to Sholi</h1>
         </a>
 
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#specials">Specials</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="#chefs">Chefs</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.html#home" class="active">Home</a></li>
+            <li><a href="index.html#products">Products</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#why-us">Why US</a></li>
+            <li><a href="index.html#partners">Partners</a></li>
+            <li><a href="index.html#csr">CSR</a></li>
+            <li><a href="recent.html">Recent News</a></li>
+            <li><a href="index.html#stories">Stories</a></li>
+            <li><a href="index.html#chefs">Team</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -132,7 +109,24 @@
 
 <!-- Chefs Section -->
 <section id="chefs" class="chefs section">
+<style>
+.member .pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  overflow: hidden;
+  background: #f9f9f9; /* Optional: add background */
+  border-radius: 10px;
+}
 
+.member .pic img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+</style>
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2>Staff</h2>
@@ -147,7 +141,7 @@
         <div class="member">
           <div class="pic"><img src="assets/img/staff/presidente.png" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Nadine Uwingabiye</h4>
+            <h4>Marthe MUKAKARANGWA</h4>
             <span>Presidente</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -193,10 +187,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/napoleon.jpg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Napoleon Kwizera</h4>
+            <span>Coffee washing station manager</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -209,10 +203,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/elisabeth.jpg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Elisabeth Umutoniwimana</h4>
+            <span>Coffee washing station manager</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -225,10 +219,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/bahire.jpg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Bahire JMV</h4>
+            <span>Standards Officer</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -241,10 +235,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/mukamurera.jpg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Claudine Mukamurera</h4>
+            <span>Logistics And Quality controller</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -257,10 +251,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/dominica.jpg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Dominica Ngirente</h4>
+            <span>Agronomist</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -273,10 +267,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/akineza.jpeg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Esperance Akineza</h4>
+            <span>Accountant</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -289,10 +283,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/felix.jpeg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Felix Havugimana</h4>
+            <span>Agronomist</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -305,10 +299,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/gisele.jpg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Gisele Uwayezu</h4>
+            <span>Cashier</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -321,10 +315,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/gustave.jpg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Gustave Nikomeze</h4>
+            <span>Data Manager</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -337,10 +331,10 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/staff/bizimana.jpeg" class="img-fluid" alt=""></div>
           <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
+            <h4>Julien Bizimana</h4>
+            <span>Documentation officer</span>
             <div class="social">
               <a href=""><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
@@ -350,39 +344,6 @@
           </div>
         </div>
       </div><!-- End Team Member -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
-          <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div><!-- End Team Member -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="member">
-          <div class="pic"><img src="assets/img/staff/mizero.jpg" class="img-fluid" alt=""></div>
-          <div class="member-info">
-            <h4>Jeannette Mizero</h4>
-            <span>Production Certification Manager</span>
-            <div class="social">
-              <a href=""><i class="bi bi-twitter-x"></i></a>
-              <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-instagram"></i></a>
-              <a href=""><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </div><!-- End Team Member -->
-
     </div>
 
 </section><!-- /Chefs Section -->
@@ -407,9 +368,9 @@
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
             <h4>Address</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p></p>
+            <!-- <p>Nyamabuye Road</p> -->
+            <p>Rwanda, Southern Province</p>
+            <p>Cyeza/Muhanga District.</p>
           </div>
 
         </div>
@@ -419,8 +380,8 @@
           <div>
             <h4>Contact</h4>
             <p>
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
-              <strong>Email:</strong> <span>info@example.com</span><br>
+              <strong>Phone:</strong> <span>+250 788 899 230</span><br>
+              <strong>Email:</strong> <span>shimima7@gmail.com</span><br>
             </p>
           </div>
         </div>
@@ -430,8 +391,8 @@
           <div>
             <h4>Opening Hours</h4>
             <p>
-              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
-              <strong>Sunday</strong>: <span>Closed</span>
+              <strong>Mon-Fri:</strong> <span>08AM - 17PM</span><br>
+              <strong>Sat-Sunday</strong>: <span>Closed</span>
             </p>
           </div>
         </div>
@@ -439,10 +400,10 @@
         <div class="col-lg-3 col-md-6">
           <h4>Follow Us</h4>
           <div class="social-links d-flex">
-            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a target="_blank" href="https://x.com/SholiCoffee" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a target="_blank" href="https://web.facebook.com/Abateraninkungabasholi/" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/sholicoffee/" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a target="_blank" href="https://rw.linkedin.com/in/nshimiye-aimable-3a886165" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
