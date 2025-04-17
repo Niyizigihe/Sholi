@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .custom-text-color {
+      color: #ffb03b;
+    }
+    .custom-bg {
+      background-color: #ada8a8;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center custom-bg">
+
+  <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-md">
+    <h2 class="text-3xl font-bold text-center custom-text-color mb-6">Welcome Back</h2>
+
+    <form action="#" method="POST" class="space-y-5">
+      <div>
+        <label class="block mb-1 custom-text-color font-semibold" for="email">Email</label>
+        <input type="email" id="email" name="email" required 
+               class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <div>
+        <label class="block mb-1 custom-text-color font-semibold" for="password">Password</label>
+        <input type="password" id="password" name="password" required
+               class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400">
+      </div>
+
+      <div class="flex items-center justify-between">
+        
+        <div>
+          <a href="#" class="text-sm text-blue-300 hover:underline">Forgot password?</a>
+        </div>
+      </div>
+
+      <button type="submit" class="w-full bg-purple-500 text-white py-2 rounded-lg font-semibold hover:bg-purple-600 transition duration-300">
+        Login
+      </button>
+    </form>
+  </div>
+
+</body>
+</html>
